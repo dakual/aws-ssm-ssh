@@ -34,6 +34,7 @@ aws iam add-role-to-instance-profile --instance-profile-name EC2SSMRole --role-n
 ```
 
 Creating SSM Access Group
+## AWS Systems Manager
 ```sh
 aws iam create-group --group-name SSMAccess
 aws iam put-group-policy --group-name SSMAccess --policy-name SessionPolicy --policy-document file://SessionPolicy.json
