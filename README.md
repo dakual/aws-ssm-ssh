@@ -1,4 +1,4 @@
-## AWS Systems Manager
+## AWS Systems Manager SSH and Port Forwarding
 
 Install AWS Session Manager Plugin.
 ```sh
